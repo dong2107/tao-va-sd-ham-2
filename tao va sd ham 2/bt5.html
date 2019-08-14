@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<script>
+    function check(number1,number2,number3) {
+        if (number1 < number2 && number1 < number3){
+            alert("so nho nhat la : " + number1);
+        }else if (number2 < number1 && number2 < number3){
+            alert("so nho nhat la : " + number2);
+        }else {
+            alert("so nho nhat la : " + number3);
+        }
+    }
+    let num1 = parseInt(prompt("nhap :"));
+    let num2 = parseInt(prompt("nhap :"));
+    let num3 = parseInt(prompt("nhap :"));
+    check(num1,num2,num3)
+</script>
+</body>
+</html>
